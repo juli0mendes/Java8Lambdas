@@ -5,6 +5,11 @@ import java.awt.event.ActionListener;
 
 import javax.swing.JButton;
 
+/**
+ * @author Julio Cesar Mendes
+ * 
+ * The Class Java8FunctionalInterface.
+ */
 public class Java8FunctionalInterface {
 
 	public static void main(String[] args) {
@@ -12,11 +17,14 @@ public class Java8FunctionalInterface {
 		// JAVA 8: FUNÇÕES LAMBDA
 		testFunctionalInterfaceWithRunnable();
 		
-		System.out.println("-------------");
+		System.out.println("\n");
 		
 		testFunctionalInterfaceWithActionListener();		
 	}
 
+	/**
+	 * Test functional interface with runnable.
+	 */
 	private static void testFunctionalInterfaceWithRunnable() {
 		
 		// JAVA 7
@@ -27,12 +35,15 @@ public class Java8FunctionalInterface {
 			}
 		}).run();
 		
-		System.out.println("-------------");
+		System.out.println("\n");
 
 		// JAVA 8		
 		new Thread(() -> System.out.println("Olá, mundo")).run();
 	}
 	
+	/**
+	 * Test functional interface with action listener.
+	 */
 	private static void testFunctionalInterfaceWithActionListener() {
 
 		// JAVA 7		
