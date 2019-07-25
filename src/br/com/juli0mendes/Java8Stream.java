@@ -104,7 +104,5 @@ public class Java8Stream {
 		System.out.println(listaInteiros.stream().map(e -> String.valueOf(e)).collect(Collectors.joining(";")));
 		
 		System.out.println("\n");
-		
-		
 	}
 }
