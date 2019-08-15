@@ -12,6 +12,7 @@ import java.util.Locale;
 
 public class Java8TimeZone {
 
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		
 		Locale.setDefault(Locale.forLanguageTag("pt-BR"));
