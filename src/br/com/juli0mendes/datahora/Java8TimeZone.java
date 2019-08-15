@@ -33,5 +33,7 @@ public class Java8TimeZone {
 		
 		System.out.println(zonedDateTime.getOffset());
 		System.out.println(date.getTimezoneOffset());
+		
+		// LMT - Local Mean Time (antes de 1900)
 	}
 }
